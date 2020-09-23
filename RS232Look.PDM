@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=RS232 test appl PVU
+
+
+[Package|RS232 test appl PVU|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\RS232Looker\install
+
+[Package|RS232 test appl PVU|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RS232 test appl PVU|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RS232 test appl PVU|Files Found]
+
+[Package|RS232 test appl PVU|Files Released]
+
+[Package|RS232 test appl PVU|Missing Dependency Information]
+
+[Package|RS232 test appl PVU|Out-of-Date Dependency Information]
+
+[Package|RS232 test appl PVU|Files Added]
+
+[Package|RS232 test appl PVU|Files Removed]
+
+[Package|RS232 test appl PVU|Files In Project]
+D:\Visual Basic\RS232Looker\RS232Look.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|RS232 test appl PVU|Configure Registry Files]
+Applicable=No
+
+[Package|RS232 test appl PVU|Configure Remote Servers]
+Applicable=No
+
+[Package|RS232 test appl PVU|Install Locations]
+D:\Visual Basic\RS232Looker\RS232Look.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|RS232 test appl PVU|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\RS232Looker\RS232Look.exe=No
+
+[Package|RS232 test appl PVU|Distribution]
+Type=single
+Size=
+Title=RS232 Test application PVU
+
+[Package|RS232 test appl PVU|IconGroups]
+Group0=RS232 Test application PVU
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|RS232 test appl PVU|RS232 Test application PVU]
+Icon1=RS232Look.exe
+Title1=RS232 Test application PVU
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|RS232 test appl PVU|Package]
+PackageFolder=D:\Visual Basic\RS232Looker\install
+ProjectFolder=D:\Visual Basic\RS232Looker
+ServerSideCab=
+File1=D:\Visual Basic\RS232Looker\install\setup.exe
+File2=D:\Visual Basic\RS232Looker\install\Setup.Lst
+File3=D:\Visual Basic\RS232Looker\install\RS232Look.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
